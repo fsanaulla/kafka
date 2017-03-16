@@ -1,20 +1,6 @@
-package services.kafka
+package events
 
-import akka.actor.{Actor, ActorLogging, Props}
-import akka.kafka.ProducerSettings
-import akka.kafka.scaladsl.Producer
-import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.{Flow, Source}
-import com.google.inject.Inject
 import models.KafkaEvents.{Event, Hello}
-import org.apache.kafka.clients.producer.ProducerRecord
-import org.apache.kafka.common.serialization.ByteArraySerializer
-import play.api.{Configuration, Logger}
-import services.kafka.KafkaEventProcessor.Init
-import services.kafka.Serializer.EventSerializer
-
-import scala.concurrent.ExecutionContextExecutor
-import scala.language.implicitConversions
 
 /**
   * Created by faiaz on 10.03.17.

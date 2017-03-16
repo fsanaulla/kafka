@@ -1,4 +1,4 @@
-package kafka
+package events
 
 import akka.actor.ActorLogging
 import akka.stream.actor.ActorSubscriberMessage.{OnError, OnNext}

@@ -1,7 +1,7 @@
 package module
 
 import com.google.inject.AbstractModule
-import kafka.KafkaEventProcessor
+import events.KafkaEventProcessor
 import play.api.libs.concurrent.AkkaGuiceSupport
 
 /**

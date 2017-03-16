@@ -1,9 +1,8 @@
 package controllers
 
 import com.google.inject.Inject
+import events.EventBus
 import models.KafkaEvents.Hello
-import play.api.mvc.{Action, Controller}
-import services.kafka.EventBus
 
 /**
   * Created by faiaz on 10.03.17.

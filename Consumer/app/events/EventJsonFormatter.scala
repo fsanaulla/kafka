@@ -1,4 +1,4 @@
-package kafka
+package events
 
 import models.Events.Hello
 import play.api.libs.json.{JsValue, Json, Writes}

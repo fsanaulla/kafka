@@ -1,8 +1,6 @@
-package services.kafka
+package events
 
-import akka.stream.actor.ActorPublisher
 import models.KafkaEvents.Event
-import play.api.Logger
 
 /**
   * Created by faiaz on 10.03.17.

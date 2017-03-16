@@ -1,10 +1,8 @@
-package services.kafka
+package events
 
 import java.util
 
 import models.KafkaEvents.Event
-import org.apache.kafka.common.serialization.Serializer
-import play.api.libs.json.{JsObject, Json}
 
 /**
   * Created by faiaz on 10.03.17.

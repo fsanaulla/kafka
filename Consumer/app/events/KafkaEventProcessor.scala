@@ -1,4 +1,4 @@
-package kafka
+package events
 
 import java.util.UUID
 
@@ -7,7 +7,7 @@ import akka.kafka.scaladsl.Consumer
 import akka.kafka.{ConsumerSettings, Subscriptions}
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import kafka.KafkaEventProcessor.Init
+import events.KafkaEventProcessor.Init
 import org.apache.kafka.common.serialization.ByteArrayDeserializer
 import play.api.Logger
 

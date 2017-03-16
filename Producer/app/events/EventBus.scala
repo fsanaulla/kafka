@@ -1,7 +1,5 @@
-package services.kafka
+package events
 
-import akka.actor.{ActorRef, ActorSystem}
-import com.google.inject.Inject
 import models.KafkaEvents.Event
 
 /**

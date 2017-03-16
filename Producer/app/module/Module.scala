@@ -1,8 +1,8 @@
 package module
 
 import com.google.inject.AbstractModule
-import play.api.libs.concurrent.AkkaGuiceSupport
-import services.kafka.{EventBus, KafkaEventProcessor, StreamEventBus}
+import events.{EventBus, KafkaEventProcessor, StreamEventBus}
+import services.kafka.{KafkaEventProcessor, StreamEventBus}
 
 /**
  * This class is a Guice module that tells Guice how to bind several
